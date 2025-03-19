@@ -33,10 +33,17 @@ st.info(
     "untuk peringkasan teks berita berbahasa Indonesia. Dataset yang digunakan adalah **IndoSum**, kumpulan berita dalam bahasa Indonesia. "
     "Fine-tuning dilakukan menggunakan **AutoModel** dan **AutoTokenizer** dari Hugging Face, memungkinkan AI memahami dan menyajikan "
     "ringkasan yang relevan dan berkualitas tinggi. 🚀\n\n"
-    "### 🔎 Apa Itu Peringkasan Abstraktif?\n"
-    "Peringkasan abstraktif adalah metode meringkas teks dengan menghasilkan kalimat baru yang tetap mempertahankan inti informasi "
-    "tanpa hanya menyalin frasa dari teks asli. Berbeda dengan peringkasan ekstraktif yang hanya memilih kalimat penting, "
-    "peringkasan abstraktif mampu mereformulasi informasi dengan bahasa yang lebih ringkas dan alami."
+    "### 🔎 Apa Itu Peringkasan Abstraktif & Ekstraktif?\n"
+    "Peringkasan teks secara umum terbagi menjadi dua jenis utama:\n\n"
+    "**Peringkasan Abstraktif** 📝\n"
+    "- Menghasilkan ringkasan dengan kalimat baru yang tetap mempertahankan inti informasi dari teks asli.\n"
+    "- Model AI memahami isi teks dan menyusun ulang informasi dengan bahasa yang lebih ringkas dan alami.\n"
+    "- Cocok untuk membuat ringkasan berita atau laporan yang lebih padat dan mudah dipahami.\n\n"
+    "**Peringkasan Ekstraktif** 📌\n"
+    "- Memilih kalimat atau frasa penting dari teks asli tanpa mengubah struktur atau susunan katanya.\n"
+    "- Tidak menghasilkan kalimat baru, hanya mengambil bagian yang dianggap paling relevan.\n"
+    "- Sering digunakan dalam sistem otomatis seperti ringkasan artikel akademik atau pencarian informasi cepat.\n\n"
+    "✨ Demo kali ini menggunakan model fine-tuned yang dilatih secara abstraktif, sehingga dapat menyajikan ringkasan yang lebih alami, ringkas, dan mudah dipahami. 🚀"
 )
 
 # Input teks
